@@ -1,0 +1,7 @@
+﻿TODO:
+
+ * optimize features to 9 instead.
+ * consider changing the size of Machine code (use checksum)
+ * consider changing encryption (hash) method. FOCUS on password.
+ * consider Return_Length part.
+ * remove the VisualBasic reference.
