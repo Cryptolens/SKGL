@@ -1,0 +1,1 @@
+SKGL – Serial Key Generating Library is a very simple licensing system that might be used to protect .NET Applications. If you like it, please donate or consider the online solution http://serialkeymanager.com/!
