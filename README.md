@@ -1,7 +1,7 @@
 # SKGL – Serial Key Generating Library
 SKGL is a very simple licensing system that can be used to protect .NET Applications. It's predecessor is Cryptolens (https://cryptolens.io) - a licensing system as a service (SaaS).
 
-__This page is still under construction. Please see the CodePlex site in mean time: https://archive.codeplex.com/?p=skgl
+__This page is still under construction. Please see the CodePlex site in mean time: https://archive.codeplex.com/?p=skgl__
 
 ## Features
 * Create and validate human-readable serial keys.
