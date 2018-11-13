@@ -1,5 +1,0 @@
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGL 2.0.5.2\bin\Debug\SKGL.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGL 2.0.5.2\bin\Debug\SKGL.pdb
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGL 2.0.5.2\obj\Debug\SKGL.csprojResolveAssemblyReference.cache
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGL 2.0.5.2\obj\Debug\SKGL.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGL 2.0.5.2\obj\Debug\SKGL.pdb

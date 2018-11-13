@@ -1,7 +1,0 @@
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\obj\Debug\SpeedComparsison.csprojResolveAssemblyReference.cache
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\bin\Debug\SpeedComparsison.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\bin\Debug\SpeedComparsison.pdb
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\bin\Debug\SKGL.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\bin\Debug\SKGL.pdb
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\obj\Debug\SpeedComparsison.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SpeedComparsison\obj\Debug\SpeedComparsison.pdb

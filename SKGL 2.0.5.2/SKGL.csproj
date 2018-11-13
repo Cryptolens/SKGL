@@ -34,10 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>certificate.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>certificate.pdf.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="Validate.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="certificate.pdf.snk" />
     <None Include="certificate.pfx" />
   </ItemGroup>
   <ItemGroup>
