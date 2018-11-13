@@ -1,9 +1,0 @@
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\bin\Debug\SKGLTest.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\bin\Debug\SKGLTest.pdb
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\bin\Debug\SKGL Plus.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\bin\Debug\SKGL.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\bin\Debug\SKGL.pdb
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\bin\Debug\SKGL Plus.pdb
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\obj\Debug\SKGLTest.csprojResolveAssemblyReference.cache
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\obj\Debug\SKGLTest.dll
-C:\Users\Artem Los\Documents\GitHub\SKGL\SKGLTest\obj\Debug\SKGLTest.pdb
