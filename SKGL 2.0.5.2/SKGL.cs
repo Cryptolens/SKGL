@@ -14,7 +14,7 @@ using System.Security;
 
 [assembly: AllowPartiallyTrustedCallers()]
 namespace SKGL
-{ 
+{
     internal class methods : SerialKeyConfiguration
     {
         //The construction of the key
@@ -57,7 +57,7 @@ namespace SKGL
             {
                 // if password is set, return an encrypted 
                 return base10ToBase26((getEightByteHash(result.ToString()) + _encText(result.ToString(), _secretPhase)));
-            } 
+            }
         }
 
         protected internal string _decrypt(string _key, string _secretPhase)
@@ -299,25 +299,20 @@ namespace SKGL
             BigInteger newNum = 1;
 
             if (y == 0)
-            {
                 return 1;
-                // if 0, return 1, e.g. x^0 = 1 (mathematicaly proven!) 
-            }
-            else if (y == 1)
-            {
+            // if 0, return 1, e.g. x^0 = 1 (mathematicaly proven!) 
+
+            if (y == 1)
                 return x;
-                // if 1, return x, which is the base, e.g. x^1 = x
-            }
-            else
+            // if 1, return x, which is the base, e.g. x^1 = x
+            
+            for (int i = 0; i <= y - 1; i++)
             {
-                for (int i = 0; i <= y - 1; i++)
-                {
-                    newNum = newNum * x;
-                }
-                return newNum;
-                // if both conditions are not satisfied, this loop
-                // will continue to y, which is the exponent.
+                newNum = newNum * x;
             }
+            return newNum;
+            // if both conditions are not satisfied, this loop
+            // will continue to y, which is the exponent.
         }
     }
 }
