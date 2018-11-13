@@ -10,24 +10,61 @@ namespace SKGLTest
         public void MachineCodeTest()
         {
             SKGL.Generate gen = new SKGL.Generate();
-            string a= gen.MachineCode.ToString();
+            string a = gen.MachineCode.ToString();
         }
 
         [TestMethod]
         public void CreateAndValidateSimple()
         {
             SKGL.Generate gen = new SKGL.Generate();
-            string a  = gen.doKey(30);
+            string a = gen.doKey(30);
 
             SKGL.Validate val = new SKGL.Validate();
 
             val.Key = a;
-            
+
             Assert.IsTrue(val.IsValid == true);
-            Assert.IsTrue(val.IsExpired ==false);
+            Assert.IsTrue(val.IsExpired == false);
             Assert.IsTrue(val.SetTime == 30);
 
         }
+
+        [TestMethod]
+        public void CreateAndValidate999Days()
+        {
+            SKGL.Generate gen = new SKGL.Generate();
+            string a = gen.doKey(999);
+
+            SKGL.Validate val = new SKGL.Validate();
+
+            val.Key = a;
+
+            Assert.IsTrue(val.IsValid == true);
+            Assert.IsTrue(val.IsExpired == false);
+
+
+        }
+
+
+        [TestMethod]
+        public void CreateAndValidate999DaysWithSecretPhase()
+        {
+            SKGL.Generate gen = new SKGL.Generate();
+
+            gen.secretPhase = "d87e468e-02ae-4112-a687-fb4a402a2f7a";
+
+            string a = gen.doKey(999);
+
+            SKGL.Validate val = new SKGL.Validate();
+            val.secretPhase = "d87e468e-02ae-4112-a687-fb4a402a2f7a";
+            val.Key = a;
+
+            Assert.IsTrue(val.IsValid == true);
+            Assert.IsTrue(val.IsExpired == false);
+
+
+        }
+
         [TestMethod]
         public void CreateAndValidateA()
         {
